@@ -1,0 +1,291 @@
+{
+  "company-profile": {
+    "title": {
+      "ar": "نبذة عن الشركة",
+      "en": "Company Profile"
+    },
+    "body": {
+      "ar": "IFCG مصر عضو في مجموعة IFS السعودية، وتقدم منتجات البطاطس والبطاطا الحلوة للأسواق المحلية والدولية. تعرّف على الشركة، ومنتجاتها، والمصنع الذي يقف وراءها.",
+      "en": "IFCG Egypt is part of the Saudi IFS Group, producing potato and sweet potato products for local and international markets. Explore the company, its range and its factory."
+    },
+    "source": "https://ifcgegypt.com/company-profile/",
+    "images": [
+      {
+        "src": "/ifcg/images/pages/company-profile-1.jpg",
+        "source": "https://ifcgegypt.com/wp-content/uploads/2023/05/10-577x375.jpg"
+      },
+      {
+        "src": "/ifcg/images/pages/company-profile-2.jpg",
+        "source": "https://ifcgegypt.com/wp-content/uploads/2023/05/76-577x375.jpg"
+      },
+      {
+        "src": "/ifcg/images/pages/company-profile-3.jpg",
+        "source": "https://ifcgegypt.com/wp-content/uploads/2023/05/IMG_8702new-min-1-577x375.jpg"
+      },
+      {
+        "src": "/ifcg/images/pages/company-profile-4.jpg",
+        "source": "https://ifcgegypt.com/wp-content/uploads/2023/05/IMG_8705-577x375.jpg"
+      }
+    ],
+    "links": []
+  },
+  "certificates": {
+    "title": {
+      "ar": "الشهادات",
+      "en": "Certificates"
+    },
+    "body": {
+      "ar": "تعرّف على الشهادات المعروضة على موقع الشركة والتزامها بالجودة وسلامة الغذاء. المستندات أدناه من الموقع الرسمي؛ يمكن الرجوع إليه للتحقق من أحدث الإصدارات ونطاق كل شهادة.",
+      "en": "Explore the certificates published by IFCG and its focus on quality and food safety. Refer to the official source for current versions and the scope of each certificate."
+    },
+    "source": "https://ifcgegypt.com/certificates/",
+    "images": [
+      {
+        "src": "/ifcg/images/pages/certificates-1.png",
+        "source": "https://ifcgegypt.com/wp-content/uploads/2026/09/111-400x300.png"
+      },
+      {
+        "src": "/ifcg/images/pages/certificates-2.png",
+        "source": "https://ifcgegypt.com/wp-content/uploads/2026/09/1234-321x300.png"
+      },
+      {
+        "src": "/ifcg/images/pages/certificates-3.png",
+        "source": "https://ifcgegypt.com/wp-content/uploads/2026/09/1232434-300x300.png"
+      },
+      {
+        "src": "/ifcg/images/pages/certificates-4.jpg",
+        "source": "https://ifcgegypt.com/wp-content/uploads/2026/09/34343434343-296x300.jpg"
+      },
+      {
+        "src": "/ifcg/images/pages/certificates-5.jpg",
+        "source": "https://ifcgegypt.com/wp-content/uploads/2026/09/435345345.jpg"
+      },
+      {
+        "src": "/ifcg/images/pages/certificates-6.png",
+        "source": "https://ifcgegypt.com/wp-content/uploads/2026/09/234324-300x300.png"
+      }
+    ],
+    "links": []
+  },
+  "factory": {
+    "title": {
+      "ar": "المصنع",
+      "en": "Factory"
+    },
+    "body": {
+      "ar": "جولة مصورة داخل مصنع IFCG كما يعرضها الموقع الرسمي. شاهد بيئة الإنتاج وتجهيزات المصنع، ثم استكشف تشكيلة المنتجات.",
+      "en": "A photographic look inside the IFCG factory, using images published on the official website. Explore the facilities and discover the product range."
+    },
+    "source": "https://ifcgegypt.com/factory/",
+    "images": [
+      {
+        "src": "/ifcg/images/pages/factory-1.jpg",
+        "source": "https://ifcgegypt.com/wp-content/uploads/2023/05/IMG_8657-1.jpg"
+      },
+      {
+        "src": "/ifcg/images/pages/factory-2.jpg",
+        "source": "https://ifcgegypt.com/wp-content/uploads/2023/05/DSC_7023.jpg"
+      },
+      {
+        "src": "/ifcg/images/pages/factory-3.jpg",
+        "source": "https://ifcgegypt.com/wp-content/uploads/2023/05/DSC_6992.jpg"
+      }
+    ],
+    "links": []
+  },
+  "our-brands": {
+    "title": {
+      "ar": "علاماتنا التجارية",
+      "en": "Our Brands"
+    },
+    "body": {
+      "ar": "تعرّف على علامات IFCG الخمس. لكل علامة تشكيلتها، ويمكنك مناقشة متطلبات المنتجات والتعبئة في طلب توريد واحد.",
+      "en": "Discover the five IFCG brands. Explore their ranges and discuss product and packaging requirements in one supply request."
+    },
+    "source": "https://ifcgegypt.com/our-brands/",
+    "images": [],
+    "links": [
+      {
+        "title": {
+          "ar": "Hot & Crispy",
+          "en": "Hot & Crispy"
+        },
+        "url": "https://ifcgegypt.com/our-brands/#Hot-Crispy",
+        "image": "/ifcg/images/pages/our-brands-1.png",
+        "image_source": "https://ifcgegypt.com/wp-content/uploads/2023/02/Hot-Crispy-Logo-English-1.png"
+      },
+      {
+        "title": {
+          "ar": "Mama’s Choice",
+          "en": "Mama’s Choice"
+        },
+        "url": "https://ifcgegypt.com/our-brands/#Mama-Choice",
+        "image": "/ifcg/images/pages/our-brands-2.png",
+        "image_source": "https://ifcgegypt.com/wp-content/uploads/2024/09/لوغو-مامز-تشويس-الوان-400x285.png"
+      },
+      {
+        "title": {
+          "ar": "Golden Fields",
+          "en": "Golden Fields"
+        },
+        "url": "https://ifcgegypt.com/our-brands/#Golden-Fields",
+        "image": "/ifcg/images/pages/our-brands-3.png",
+        "image_source": "https://ifcgegypt.com/wp-content/uploads/2023/02/Golden-Fields-New-Logo-1.png"
+      },
+      {
+        "title": {
+          "ar": "Maysa",
+          "en": "Maysa"
+        },
+        "url": "https://ifcgegypt.com/our-brands/#maysa",
+        "image": "/ifcg/images/pages/our-brands-4.png",
+        "image_source": "https://ifcgegypt.com/wp-content/uploads/2023/02/MaySa-LoGo-1.png"
+      },
+      {
+        "title": {
+          "ar": "El Sahel",
+          "en": "El Sahel"
+        },
+        "url": "https://ifcgegypt.com/our-brands/#El-Sahel",
+        "image": "/ifcg/images/pages/our-brands-5.png",
+        "image_source": "https://ifcgegypt.com/wp-content/uploads/2023/02/AL-Sahel-LoGo-1.png"
+      }
+    ]
+  },
+  "export": {
+    "title": {
+      "ar": "التصدير",
+      "en": "Export"
+    },
+    "body": {
+      "ar": "منتجات البطاطس والبطاطا الحلوة لقطاع المطاعم والتجزئة والتوزيع في الأسواق الدولية. حدد بلد الوجهة والمنتجات والكميات المطلوبة، وأرسل طلبك إلى فريق المبيعات لمناقشة تفاصيل التوريد.",
+      "en": "Potato and sweet potato products for international foodservice, retail and distribution. Share your destination, products and quantities so sales can discuss your supply requirements."
+    },
+    "source": "https://ifcgegypt.com/export/",
+    "images": [],
+    "links": []
+  },
+  "local-sales": {
+    "title": {
+      "ar": "المبيعات المحلية",
+      "en": "Local Sales"
+    },
+    "body": {
+      "ar": "حلول توريد منتجات البطاطس والبطاطا الحلوة للمطاعم والمتاجر والموزعين داخل مصر. اختر المنتجات وحدد الكميات واحتياجات التعبئة والتسليم في طلبك.",
+      "en": "Potato and sweet potato supply for restaurants, shops and distributors in Egypt. Select your products and specify quantities, packaging and delivery requirements."
+    },
+    "source": "https://ifcgegypt.com/local-sales/",
+    "images": [],
+    "links": []
+  },
+  "catalogues": {
+    "title": {
+      "ar": "الكتالوجات",
+      "en": "Catalogues"
+    },
+    "body": {
+      "ar": "تصفح كتالوجات IFCG باللغات المتاحة على الموقع الرسمي، ثم اجمع المنتجات المناسبة في طلبك. تفتح الملفات مباشرة من مصدر الشركة.",
+      "en": "Browse IFCG catalogues in the languages available on the official website, then build your product selection. Files open directly from the company source."
+    },
+    "source": "https://ifcgegypt.com/catalogues/",
+    "images": [],
+    "links": [
+      {
+        "url": "https://ifcgegypt.com/wp-content/uploads/2026/08/V32026_compressed.pdf",
+        "title": {
+          "ar": "English",
+          "en": "English"
+        }
+      },
+      {
+        "url": "https://ifcgegypt.com/wp-content/uploads/2026/08/France_compressed-1w.pdf",
+        "title": {
+          "ar": "Français",
+          "en": "Français"
+        }
+      },
+      {
+        "url": "https://ifcgegypt.com/wp-content/uploads/2026/07/Germany_compressed.pdf",
+        "title": {
+          "ar": "Deutsch",
+          "en": "Deutsch"
+        }
+      },
+      {
+        "url": "https://ifcgegypt.com/wp-content/uploads/2026/08/Portugal_compressed.pdf",
+        "title": {
+          "ar": "Português",
+          "en": "Português"
+        }
+      },
+      {
+        "url": "https://ifcgegypt.com/wp-content/uploads/2026/07/Russian_compressed.pdf",
+        "title": {
+          "ar": "Русский",
+          "en": "Русский"
+        }
+      }
+    ]
+  },
+  "articles": {
+    "title": {
+      "ar": "المقالات",
+      "en": "Blogs"
+    },
+    "body": {
+      "ar": "موضوعات من مدونة IFCG حول اختيار منتجات البطاطا الحلوة وتنوع القطع والتوريد. اقرأ المقال الكامل على موقع الشركة.",
+      "en": "Explore IFCG articles about choosing sweet potato products, cuts and supply. Read the full articles on the company website."
+    },
+    "source": "https://ifcgegypt.com/articles/",
+    "images": [],
+    "links": [
+      {
+        "url": "https://ifcgegypt.com/how-to-choose-the-best-sweet-potato-products-and-suppliers-2/",
+        "title": {
+          "ar": "كيف تختار منتجات وموردي البطاطا الحلوة؟",
+          "en": "How to Choose the Best Sweet Potato Products and Suppliers?"
+        }
+      },
+      {
+        "url": "https://ifcgegypt.com/sweet-potato-colours-explained-which-type-fits-your-needs/",
+        "title": {
+          "ar": "ألوان البطاطا الحلوة: أي نوع يناسب احتياجاتك؟",
+          "en": "Sweet Potato Colours Explained: Which Type Fits Your Needs?"
+        }
+      },
+      {
+        "url": "https://ifcgegypt.com/frozen-sweet-potato-fries-a-complete-guide-to-cuts-texture-and-cooking/",
+        "title": {
+          "ar": "دليل قطع البطاطا الحلوة المجمدة وطرق الطهي",
+          "en": "Frozen Sweet Potato Fries: A Complete Guide to Cuts, Texture and Cooking"
+        }
+      }
+    ]
+  },
+  "contact-us": {
+    "title": {
+      "ar": "تواصل معنا",
+      "en": "Contact us"
+    },
+    "body": {
+      "ar": "تواصل مع القسم المناسب في IFCG، أو أنشئ طلب توريد بالمنتجات والكميات ليظهر لفريق المبيعات في لوحة التحكم.",
+      "en": "Contact the appropriate IFCG department, or create a product and quantity request for the sales workspace."
+    },
+    "source": "https://ifcgegypt.com/contact-us/",
+    "images": [],
+    "links": []
+  },
+  "privacy-policy": {
+    "title": {
+      "ar": "سياسة الخصوصية",
+      "en": "Privacy Policy"
+    },
+    "body": {
+      "ar": "في هذه النسخة التجريبية، تُحفظ بيانات الشركة والتواصل والمنتجات والكميات في قاعدة بيانات النسخة لعرضها لفريق المبيعات المصرح له. تُستخدم جلسة للغة وتسجيل الدخول، ويُحفظ اختيار المنتجات في متصفحك. لا يُرسل بريد فعلي ولا يُحجز مخزون. استخدم بيانات تجريبية. سياسة موقع الشركة الأصلي متاحة عبر الرابط أدناه ولا تُعد وصفًا لتشغيل هذه النسخة.",
+      "en": "This demo stores company, contact, product and quantity data in its local database for authorized sales staff. Sessions support language and sign-in, and product selections are stored in your browser. No real email is sent and no stock is reserved. Use fictional contact details. The original company website policy is linked below and is separate from this demo."
+    },
+    "source": "https://ifcgegypt.com/privacy-policy/",
+    "images": [],
+    "links": []
+  }
+}

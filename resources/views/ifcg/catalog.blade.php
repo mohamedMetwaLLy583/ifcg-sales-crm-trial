@@ -1,0 +1,9 @@
+@extends('ifcg.layout')
+@section('title',__('ifcg.products'))
+@section('content')
+<section class="collection-hero"><div><span class="eyebrow">IFCG / {{ __('experience.collection') }}</span><h1>{{ __('experience.collection_title') }}</h1><p>{{ __('experience.collection_copy') }}</p><a href="#collection" class="text-link">{{ __('ifcg.explore') }} ↓</a></div><div class="collection-art" aria-hidden="true"><span class="collection-orbit"></span><img src="/ifcg/images/plain-sweet-potato.png" alt="" width="600" height="600"><span class="collection-stamp">IFCG<br>EGYPT</span></div></section>
+<section id="collection" class="section catalog-section"><form class="filters" method="get"><div class="filter-tabs">@foreach([''=>'all','french-fries'=>'french-fries','sweet-potatoes'=>'sweet-potatoes','seasoned-potatoes'=>'seasoned-potatoes'] as $key=>$label)<a class="{{ request('category','')===$key ? 'selected' : '' }}" @if(request('category','')===$key) aria-current="page" @endif href="{{ route('ifcg.catalog',['category'=>$key,'q'=>request('q')]) }}#collection">{{ __('ifcg.'.$label) }}</a>@endforeach</div><input type="hidden" name="category" value="{{ request('category') }}"><div class="search"><label class="sr-only" for="search">{{ __('ifcg.search') }}</label><input id="search" name="q" value="{{ request('q') }}" placeholder="{{ __('ifcg.search') }}"><button aria-label="{{ __('ifcg.search') }}">⌕</button></div></form>
+<div class="collection-count" role="status">{{ $products->count() }} {{ __('experience.results') }} @if(request('q')||request('category'))<a href="{{ route('ifcg.catalog') }}#collection">{{ __('experience.reset') }} ↗</a>@endif</div>
+<div class="product-grid">@forelse($products as $product)@include('ifcg.card')@empty<p class="empty">{{ __('ifcg.no_results') }}</p>@endforelse</div></section>
+@include('ifcg.motion-gallery')
+@endsection

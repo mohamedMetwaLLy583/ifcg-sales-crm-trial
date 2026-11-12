@@ -1,0 +1,42 @@
+/* IFCG orange + green, with distinct section surfaces and accessible dark copy. */
+.home-experience .range-section{background:#fff8ea;border-top:5px solid #f89820}
+.home-experience .pairing-section{background:#eaf4e9;border-top:5px solid #25a755}
+.home-experience .pairing-image{background:#dbead6}
+.home-experience .business-section{background:#fff0dc}
+.home-experience .business-card{background:#fffdf8;border-top:4px solid #f89820}
+.home-experience .business-card:nth-child(2){background:#e5f1e4;border-top-color:#25a755}
+.home-experience .business-card:nth-child(3){background:#1f4626;border-top-color:#f89820;color:#fff}
+.home-experience .business-card:nth-child(3) :is(p,.business-top){color:#dce9da}
+.home-experience .business-card:nth-child(3) .business-action{color:#ffd395;border-color:#ffffff30}
+.home-experience .proof-section{background:#fff}
+.home-experience .brand-portfolio{background:#eff5e9;border-block:1px solid #dce7d5}
+.home-experience .journey-section{background:#1f4626}
+.home-experience .faq-section{background:#fff8ea}
+.home-experience .closing-section{background:#f89820;margin-top:35px}
+.home-experience .closing-section :is(h2,p,.eyebrow,.hero-secondary){color:#173b22}
+.home-experience .closing-flower{color:#ffffff35}
+.product-card[data-category="french-fries"] .product-image{background:#fff3d9}
+.product-card[data-category="sweet-potatoes"] .product-image{background:#fff0e2}
+.product-card[data-category="seasoned-potatoes"] .product-image{background:#eaf4e9}
+.product-card[data-category="french-fries"]{border-top:3px solid #f89820}
+.product-card[data-category="sweet-potatoes"]{border-top:3px solid #cf6c12}
+.product-card[data-category="seasoned-potatoes"]{border-top:3px solid #25a755}
+.product-image>img:not(.product-alternate){mix-blend-mode:multiply}
+.product-experience .preparation-section{background:#fff3dd}
+.product-experience .supply-information{background:#eaf4e9}
+.product-experience .related-section{background:#fffaf1}
+.potato-motion-section{padding:65px 6%;background:#173b22;color:white}
+.motion-heading{display:flex;justify-content:space-between;align-items:center;gap:25px;margin-bottom:28px}
+.home-experience .potato-motion-section .eyebrow,.potato-motion-section .eyebrow{color:#ffbd67}
+.potato-motion-section h2{color:white;font-size:clamp(28px,3.3vw,45px);margin:16px 0}
+.potato-motion-section p{color:#dfebdf;font-size:14px;line-height:1.8;max-width:650px}
+.motion-toggle{border:1px solid #91ae93;color:#fff;background:transparent;padding:12px 20px;border-radius:30px;white-space:nowrap;font-size:12px}
+.motion-toggle:hover{background:#2c5735}
+.motion-toggle:focus-visible{outline:3px solid #f89820;outline-offset:4px}
+.potato-motion-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.potato-motion-card{margin:0;min-width:0;border-radius:16px;overflow:hidden;border:1px solid #ffffff25;background:#284e30}
+.motion-frame{position:relative;aspect-ratio:16/9}
+.motion-frame img{display:block;width:100%;height:100%;object-fit:cover}
+.motion-frame span{position:absolute;bottom:12px;inset-inline-start:12px;padding:6px 10px;background:#173b22dd;color:#fff;font-size:10px;letter-spacing:1px;border-radius:20px;direction:ltr}
+.motion-catalog-link{display:inline-block;margin-top:28px;color:#ffd395;font-size:14px;text-decoration:underline;text-underline-offset:6px}
+@media(max-width:760px){.potato-motion-section{padding:40px 6%}.motion-heading{align-items:flex-start;flex-direction:column;gap:12px}.potato-motion-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.motion-frame span{font-size:8px;bottom:7px;inset-inline-start:7px}.potato-motion-card{border-radius:10px}}

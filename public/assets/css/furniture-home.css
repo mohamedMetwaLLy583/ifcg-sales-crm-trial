@@ -1,0 +1,96 @@
+/* Product-first homepage; scoped to leave catalog, checkout and account unchanged. */
+body.storefront.furniture-ui { background: #fffefa; color: #332c25; }
+.furniture-ui .store-container { width: min(1440px, calc(100% - 80px)); max-width: 1440px; }
+.furniture-ui .market-header { position: relative; box-shadow: none; background: #fffefa; border-bottom: 1px solid #e9e3da; }
+.furniture-ui .market-mainbar { background: #fffefa; padding: 19px 0; }
+.furniture-ui .market-mainbar__inner { display: flex; gap: 32px; }
+.furniture-ui .market-actions { margin-inline-start: auto; }
+.furniture-ui > main { background: #fffefa; }
+.furniture-ui .market-logo { flex-shrink: 0; }
+.furniture-ui .market-logo__mark { width: 40px; height: 40px; border-radius: 12px; background: #715239; box-shadow: none; }
+.furniture-ui .market-logo strong { font-size: 21px; }
+.furniture-ui .market-logo small { display: none; }
+.furniture-ui .market-search { flex: 1; max-width: 500px; min-width: 0; border: 1px solid #ded7cd; border-radius: 9px; background: #f7f5ef; box-shadow: none; }
+.furniture-ui .market-search__scope { display: none; }
+.furniture-ui .market-search input { min-width: 0; background: transparent; height: 43px; font-size: 13px; }
+.furniture-ui .market-search button { background: transparent; color: #514434; box-shadow: none; border: 0; }
+.furniture-ui .market-actions { gap: 12px; }
+.furniture-ui .market-action { background: transparent; border: 0; box-shadow: none; }
+.furniture-ui .market-account__button { border: 0; background: transparent; }
+.furniture-ui .market-action__badge { background: #715239; }
+.furniture-ui .furniture-home { padding-block: 32px 52px; }
+.furniture-home__heading { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 22px; }
+.furniture-home__eyebrow { font-size: 11px; color: #8a7864; font-weight: 600; }
+.furniture-home__heading h1 { font-size: clamp(25px, 2.7vw, 38px); letter-spacing: -.8px; line-height: 1.4; margin: 3px 0 0; font-weight: 700; color: #332c25; }
+.furniture-home__all { display: inline-flex; align-items: center; gap: 12px; color: #66503c; font-size: 13px; white-space: nowrap; }
+.furniture-home__categories { display: flex; gap: 9px; overflow-x: auto; padding: 0 0 18px; margin-bottom: 8px; scrollbar-width: thin; scrollbar-color: #d6c7b5 transparent; }
+.furniture-home__categories a { flex: 0 0 auto; padding: 10px 19px; min-height: 42px; border: 1px solid #e5dfd5; border-radius: 7px; color: #605448; background: #fffefa; font-size: 13px; transition: background .15s, border-color .15s; }
+.furniture-home__categories a:hover { border-color: #90745a; background: #f2ede5; }
+.furniture-home__categories .is-selected { background: #594431; border-color: #594431; color: #fff; }
+.furniture-home__grid { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 30px 22px; }
+.furniture-ui .product-card { min-width: 0; border: 0; border-radius: 0; background: transparent; box-shadow: none; overflow: visible; transform: none; }
+.furniture-ui .product-card:hover { box-shadow: none; transform: none; }
+.furniture-ui .product-card__media-wrap { position: relative; border-radius: 10px; overflow: hidden; background: #f2eee6; padding-bottom: 46px; }
+.furniture-ui .product-card__media { display: block; height: auto; min-height: 0; aspect-ratio: 1.2; border-radius: 0; background: #f2eee6; }
+.furniture-ui .product-card__media img { width: 100%; height: 100%; object-fit: cover; padding: 0; transition: transform .25s ease; }
+.furniture-ui .product-card:hover .product-card__media img { transform: scale(1.025); }
+.furniture-ui .product-card__wishlist { top: 10px; left: 10px; right: auto; width: 36px; height: 36px; border: 0; box-shadow: none; background: #fffcf5ed; color: #6a533d; opacity: 1; }
+.furniture-ui .product-card__badge { top: 12px; right: 12px; left: auto; font-size: 10px; padding: 3px 9px; font-weight: 500; background: #fffcf5e8; color: #68503b; border: 0; box-shadow: none; border-radius: 4px; }
+.furniture-ui .product-card__quick-add { display: flex; align-items: center; justify-content: center; gap: 7px; position: absolute; inset: auto 0 0; width: 100%; height: 46px; margin: 0; padding: 0 12px; border: 0; border-top: 1px solid #e3d9ca; border-radius: 0; background: #ebe2d5; color: #493725; font-size: 12px; font-weight: 600; opacity: 1; visibility: visible; transform: none; box-shadow: none; }
+.furniture-ui .product-card:hover .product-card__quick-add { transform: none; }
+.furniture-ui .product-card__quick-add:hover { background: #594431; color: white; }
+.furniture-ui .product-card__quick-add:disabled { color: #8d8175; background: #eee9e1; cursor: not-allowed; }
+.furniture-ui .product-card__body { padding: 12px 1px 0; display: flex; flex-direction: column; gap: 7px; min-height: 0; }
+.furniture-ui .product-card__category, .furniture-ui .product-card__footer { display: none; }
+.furniture-ui .product-card__title-link h3 { font-size: 14px; font-weight: 500; color: #40352b; line-height: 1.7; min-height: 0; margin: 0; }
+.furniture-ui .product-card__price-row { margin: 0; gap: 8px; }
+.furniture-ui .product-card .price { font-size: 15px; font-weight: 700; color: #443224; }
+.furniture-home__more { text-align: center; margin-top: 38px; }
+.furniture-home__more a { display: inline-flex; align-items: center; gap: 20px; padding: 13px 28px; border: 1px solid #b7a58e; color: #594431; border-radius: 6px; font-size: 13px; }
+.furniture-home__empty { grid-column: 1/-1; text-align: center; padding: 64px 0; }
+.furniture-home-footer { border-top: 1px solid #e3ddd2; padding: 28px 0; background: #f4f0e8; }
+.furniture-home-footer .store-container { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.furniture-home-footer__brand { font-size: 20px; font-weight: 700; color: #493827; }
+.furniture-home-footer nav { display: flex; gap: 25px; }
+.furniture-home-footer nav a, .furniture-home-footer small { color: #776957; font-size: 12px; }
+.furniture-ui a:focus-visible, .furniture-ui button:focus-visible { outline: 2px solid #82613f; outline-offset: 4px; }
+@media (max-width: 1000px) {
+ .furniture-ui .store-container { width: calc(100% - 40px); }
+ .furniture-ui .market-mainbar__inner { gap: 16px; }
+ .furniture-home__grid { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 24px 16px; }
+}
+@media (max-width: 700px) {
+ .furniture-ui .store-container { width: calc(100% - 28px); }
+ .furniture-ui .market-mainbar { padding: 12px 0; }
+ .furniture-ui .market-mainbar__inner { display: flex; flex-wrap: wrap; gap: 12px; }
+ .furniture-ui .market-logo { order: 1; margin-inline-end: auto; }
+ .furniture-ui .market-logo strong { font-size: 18px; }
+ .furniture-ui .market-logo__mark { width: 32px; height: 32px; }
+ .furniture-ui .market-menu-toggle { order: 3; width: 36px; height: 36px; }
+ .furniture-ui .market-actions { order: 2; gap: 2px; margin: 0; }
+ .furniture-ui .market-action { width: 36px; height: 36px; }
+ .furniture-ui .market-account { display: none; }
+ .furniture-ui .market-search { order: 4; flex-basis: 100%; width: 100%; max-width: none; }
+ .furniture-ui .market-search input { height: 38px; }
+ .furniture-ui .furniture-home { padding-block: 21px 32px; }
+ .furniture-home__heading { margin-bottom: 16px; }
+ .furniture-home__heading h1 { font-size: 25px; }
+ .furniture-home__eyebrow { display: none; }
+ .furniture-home__all { font-size: 11px; gap: 7px; }
+ .furniture-home__categories { gap: 7px; padding-bottom: 13px; margin-bottom: 6px; }
+ .furniture-home__categories a { font-size: 11px; padding: 9px 13px; }
+ .furniture-home__grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 23px 12px; }
+ .furniture-ui .product-card__media { aspect-ratio: 1; }
+ .furniture-ui .product-card__media-wrap { padding-bottom: 42px; }
+ .furniture-ui .product-card__quick-add { height: 42px; font-size: 11px; }
+ .furniture-ui .product-card__wishlist { width: 32px; height: 32px; left: 7px; top: 7px; }
+ .furniture-ui .product-card__badge { right: 7px; top: 10px; font-size: 9px; padding: 2px 6px; }
+ .furniture-ui .product-card__title-link h3 { font-size: 12px; line-height: 1.65; }
+ .furniture-ui .product-card .price { font-size: 13px; }
+ .furniture-home-footer .store-container { flex-wrap: wrap; gap: 18px; }
+ .furniture-home-footer nav { gap: 18px; }
+ .furniture-home-footer small { width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) {
+ .furniture-ui *, .furniture-ui *::before, .furniture-ui *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}

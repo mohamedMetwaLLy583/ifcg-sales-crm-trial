@@ -1,0 +1,380 @@
+{
+  "schema_version": 1,
+  "prepared_on": "2026-11-10",
+  "source": "https://ifcgegypt.com/our-products/",
+  "purpose": "Isolated IFCG demo catalog preparation, not a deployed application.",
+  "notice": "All prices and SKUs are synthetic demo data, not IFCG prices or official product codes. Non-English names are draft translations. Packaging, stock, MOQ and brand associations are not assumed.",
+  "products": [
+    {
+      "demo_sku": "IFCG-DEMO-001",
+      "slug": "crinkle-fries",
+      "category": "french-fries",
+      "source_url": "https://ifcgegypt.com/product/crinkle-fries/",
+      "names": {
+        "en": "Crinkle Fries",
+        "ar": "بطاطس كرينكل",
+        "de": "Wellenschnitt-Pommes",
+        "pt": "Batatas fritas onduladas",
+        "ru": "Картофель фри рифлёный",
+        "es": "Patatas fritas onduladas",
+        "fr": "Frites ondulées"
+      },
+      "translation_status": {
+        "en": "source_name",
+        "ar": "draft_translation",
+        "de": "draft_translation",
+        "pt": "draft_translation",
+        "ru": "draft_translation",
+        "es": "draft_translation",
+        "fr": "draft_translation"
+      },
+      "demo_price": {
+        "amount": 75,
+        "currency": "EGP",
+        "per_unit": "kg",
+        "is_demo": true,
+        "tax_included": false,
+        "shipping_included": false
+      },
+      "stock_quantity": null,
+      "minimum_order_quantity": null,
+      "brand_id": null,
+      "packaging": [],
+      "publication_status": "draft"
+    },
+    {
+      "demo_sku": "IFCG-DEMO-002",
+      "slug": "plain-sweet-potato",
+      "category": "sweet-potatoes",
+      "source_url": "https://ifcgegypt.com/product/plain-sweet-potato/",
+      "names": {
+        "en": "Sweet Potato | Straight Cut",
+        "ar": "بطاطا حلوة — قطع مستقيمة",
+        "de": "Süßkartoffelpommes — gerader Schnitt",
+        "pt": "Batata-doce — corte reto",
+        "ru": "Батат — прямая нарезка",
+        "es": "Boniato — corte recto",
+        "fr": "Patate douce — coupe droite"
+      },
+      "translation_status": {
+        "en": "source_name",
+        "ar": "draft_translation",
+        "de": "draft_translation",
+        "pt": "draft_translation",
+        "ru": "draft_translation",
+        "es": "draft_translation",
+        "fr": "draft_translation"
+      },
+      "demo_price": {
+        "amount": 110,
+        "currency": "EGP",
+        "per_unit": "kg",
+        "is_demo": true,
+        "tax_included": false,
+        "shipping_included": false
+      },
+      "stock_quantity": null,
+      "minimum_order_quantity": null,
+      "brand_id": null,
+      "packaging": [],
+      "publication_status": "draft"
+    },
+    {
+      "demo_sku": "IFCG-DEMO-003",
+      "slug": "crinkle-sweet-potato",
+      "category": "sweet-potatoes",
+      "source_url": "https://ifcgegypt.com/product/crinkle-sweet-potato/",
+      "names": {
+        "en": "Sweet potato | Crinkle Cut",
+        "ar": "بطاطا حلوة — قطع مموجة",
+        "de": "Süßkartoffelpommes — Wellenschnitt",
+        "pt": "Batata-doce — corte ondulado",
+        "ru": "Батат — рифлёная нарезка",
+        "es": "Boniato — corte ondulado",
+        "fr": "Patate douce — coupe ondulée"
+      },
+      "translation_status": {
+        "en": "source_name",
+        "ar": "draft_translation",
+        "de": "draft_translation",
+        "pt": "draft_translation",
+        "ru": "draft_translation",
+        "es": "draft_translation",
+        "fr": "draft_translation"
+      },
+      "demo_price": {
+        "amount": 115,
+        "currency": "EGP",
+        "per_unit": "kg",
+        "is_demo": true,
+        "tax_included": false,
+        "shipping_included": false
+      },
+      "stock_quantity": null,
+      "minimum_order_quantity": null,
+      "brand_id": null,
+      "packaging": [],
+      "publication_status": "draft"
+    },
+    {
+      "demo_sku": "IFCG-DEMO-004",
+      "slug": "wedges",
+      "category": "seasoned-potatoes",
+      "source_url": "https://ifcgegypt.com/product/wedges/",
+      "names": {
+        "en": "Wedges| Seasoned Potato",
+        "ar": "بطاطس ويدجز متبلة",
+        "de": "Gewürzte Kartoffelspalten",
+        "pt": "Gomos de batata temperados",
+        "ru": "Картофельные дольки со специями",
+        "es": "Gajos de patata sazonados",
+        "fr": "Quartiers de pommes de terre assaisonnés"
+      },
+      "translation_status": {
+        "en": "source_name",
+        "ar": "draft_translation",
+        "de": "draft_translation",
+        "pt": "draft_translation",
+        "ru": "draft_translation",
+        "es": "draft_translation",
+        "fr": "draft_translation"
+      },
+      "demo_price": {
+        "amount": 85,
+        "currency": "EGP",
+        "per_unit": "kg",
+        "is_demo": true,
+        "tax_included": false,
+        "shipping_included": false
+      },
+      "stock_quantity": null,
+      "minimum_order_quantity": null,
+      "brand_id": null,
+      "packaging": [],
+      "publication_status": "draft"
+    },
+    {
+      "demo_sku": "IFCG-DEMO-005",
+      "slug": "crispy-cut-waffle-potatoes",
+      "category": "seasoned-potatoes",
+      "source_url": "https://ifcgegypt.com/product/crispy-cut-waffle-potatoes/",
+      "names": {
+        "en": "Crispy Cut (Waffle) | Seasoned Potatoes",
+        "ar": "بطاطس وافل متبلة",
+        "de": "Gewürzte Waffelpommes",
+        "pt": "Batatas waffle temperadas",
+        "ru": "Картофель вафельной нарезки со специями",
+        "es": "Patatas rejilla sazonadas",
+        "fr": "Frites gaufrées assaisonnées"
+      },
+      "translation_status": {
+        "en": "source_name",
+        "ar": "draft_translation",
+        "de": "draft_translation",
+        "pt": "draft_translation",
+        "ru": "draft_translation",
+        "es": "draft_translation",
+        "fr": "draft_translation"
+      },
+      "demo_price": {
+        "amount": 95,
+        "currency": "EGP",
+        "per_unit": "kg",
+        "is_demo": true,
+        "tax_included": false,
+        "shipping_included": false
+      },
+      "stock_quantity": null,
+      "minimum_order_quantity": null,
+      "brand_id": null,
+      "packaging": [],
+      "publication_status": "draft"
+    },
+    {
+      "demo_sku": "IFCG-DEMO-006",
+      "slug": "crinkle-sliced",
+      "category": "french-fries",
+      "source_url": "https://ifcgegypt.com/product/crinkle-sliced/",
+      "names": {
+        "en": "Crinkle Slice",
+        "ar": "شرائح بطاطس مموجة",
+        "de": "Kartoffelscheiben im Wellenschnitt",
+        "pt": "Rodelas de batata onduladas",
+        "ru": "Рифлёные ломтики картофеля",
+        "es": "Rodajas de patata onduladas",
+        "fr": "Rondelles de pommes de terre ondulées"
+      },
+      "translation_status": {
+        "en": "source_name",
+        "ar": "draft_translation",
+        "de": "draft_translation",
+        "pt": "draft_translation",
+        "ru": "draft_translation",
+        "es": "draft_translation",
+        "fr": "draft_translation"
+      },
+      "demo_price": {
+        "amount": 80,
+        "currency": "EGP",
+        "per_unit": "kg",
+        "is_demo": true,
+        "tax_included": false,
+        "shipping_included": false
+      },
+      "stock_quantity": null,
+      "minimum_order_quantity": null,
+      "brand_id": null,
+      "packaging": [],
+      "publication_status": "draft"
+    },
+    {
+      "demo_sku": "IFCG-DEMO-007",
+      "slug": "steak-fries",
+      "category": "french-fries",
+      "source_url": "https://ifcgegypt.com/product/steak-fries/",
+      "names": {
+        "en": "Steak Fries",
+        "ar": "بطاطس ستيك فرايز",
+        "de": "Steakhouse-Pommes",
+        "pt": "Batatas fritas de corte grosso",
+        "ru": "Картофель фри крупной нарезки",
+        "es": "Patatas fritas de corte grueso",
+        "fr": "Frites épaisses"
+      },
+      "translation_status": {
+        "en": "source_name",
+        "ar": "draft_translation",
+        "de": "draft_translation",
+        "pt": "draft_translation",
+        "ru": "draft_translation",
+        "es": "draft_translation",
+        "fr": "draft_translation"
+      },
+      "demo_price": {
+        "amount": 78,
+        "currency": "EGP",
+        "per_unit": "kg",
+        "is_demo": true,
+        "tax_included": false,
+        "shipping_included": false
+      },
+      "stock_quantity": null,
+      "minimum_order_quantity": null,
+      "brand_id": null,
+      "packaging": [],
+      "publication_status": "draft"
+    },
+    {
+      "demo_sku": "IFCG-DEMO-008",
+      "slug": "allumettes",
+      "category": "french-fries",
+      "source_url": "https://ifcgegypt.com/product/allumettes/",
+      "names": {
+        "en": "Allumettes",
+        "ar": "بطاطس رفيعة — ألوميت",
+        "de": "Dünne Pommes frites",
+        "pt": "Batatas fritas finas",
+        "ru": "Тонкий картофель фри",
+        "es": "Patatas fritas finas",
+        "fr": "Frites allumettes"
+      },
+      "translation_status": {
+        "en": "source_name",
+        "ar": "draft_translation",
+        "de": "draft_translation",
+        "pt": "draft_translation",
+        "ru": "draft_translation",
+        "es": "draft_translation",
+        "fr": "draft_translation"
+      },
+      "demo_price": {
+        "amount": 70,
+        "currency": "EGP",
+        "per_unit": "kg",
+        "is_demo": true,
+        "tax_included": false,
+        "shipping_included": false
+      },
+      "stock_quantity": null,
+      "minimum_order_quantity": null,
+      "brand_id": null,
+      "packaging": [],
+      "publication_status": "draft"
+    },
+    {
+      "demo_sku": "IFCG-DEMO-009",
+      "slug": "pommes-frites",
+      "category": "french-fries",
+      "source_url": "https://ifcgegypt.com/product/pommes-frites/",
+      "names": {
+        "en": "Pommes Frites",
+        "ar": "بطاطس مقلية — قطع عادية",
+        "de": "Klassische Pommes frites",
+        "pt": "Batatas fritas clássicas",
+        "ru": "Классический картофель фри",
+        "es": "Patatas fritas clásicas",
+        "fr": "Pommes frites classiques"
+      },
+      "translation_status": {
+        "en": "source_name",
+        "ar": "draft_translation",
+        "de": "draft_translation",
+        "pt": "draft_translation",
+        "ru": "draft_translation",
+        "es": "draft_translation",
+        "fr": "draft_translation"
+      },
+      "demo_price": {
+        "amount": 72,
+        "currency": "EGP",
+        "per_unit": "kg",
+        "is_demo": true,
+        "tax_included": false,
+        "shipping_included": false
+      },
+      "stock_quantity": null,
+      "minimum_order_quantity": null,
+      "brand_id": null,
+      "packaging": [],
+      "publication_status": "draft"
+    },
+    {
+      "demo_sku": "IFCG-DEMO-010",
+      "slug": "premium-clear-coated",
+      "category": "french-fries",
+      "source_url": "https://ifcgegypt.com/product/premium-clear-coated/",
+      "names": {
+        "en": "Premium Coated Fries",
+        "ar": "بطاطس مغطاة بطبقة مقرمشة",
+        "de": "Premium-Pommes mit Knusperummantelung",
+        "pt": "Batatas fritas premium com cobertura crocante",
+        "ru": "Картофель фри премиум с хрустящим покрытием",
+        "es": "Patatas fritas premium con cobertura crujiente",
+        "fr": "Frites premium enrobées"
+      },
+      "translation_status": {
+        "en": "source_name",
+        "ar": "draft_translation",
+        "de": "draft_translation",
+        "pt": "draft_translation",
+        "ru": "draft_translation",
+        "es": "draft_translation",
+        "fr": "draft_translation"
+      },
+      "demo_price": {
+        "amount": 88,
+        "currency": "EGP",
+        "per_unit": "kg",
+        "is_demo": true,
+        "tax_included": false,
+        "shipping_included": false
+      },
+      "stock_quantity": null,
+      "minimum_order_quantity": null,
+      "brand_id": null,
+      "packaging": [],
+      "publication_status": "draft"
+    }
+  ]
+}
+

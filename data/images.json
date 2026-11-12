@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "crinkle-fries",
+    "image": "/ifcg/images/crinkle-fries.jpeg",
+    "source": "https://ifcgegypt.com/wp-content/uploads/2025/02/crinkle-fries.jpeg"
+  },
+  {
+    "slug": "plain-sweet-potato",
+    "image": "/ifcg/images/plain-sweet-potato.png",
+    "source": "https://ifcgegypt.com/wp-content/uploads/2023/05/Sweet-Potato-Straight-Cut-Fries-10×10-mm.png"
+  },
+  {
+    "slug": "crinkle-sweet-potato",
+    "image": "/ifcg/images/crinkle-sweet-potato.png",
+    "source": "https://ifcgegypt.com/wp-content/uploads/2023/05/Sweet-Potato-–-Crinkle-Cut-Fries-11×11-mm-1.png"
+  },
+  {
+    "slug": "wedges",
+    "image": "/ifcg/images/wedges.png",
+    "source": "https://ifcgegypt.com/wp-content/uploads/2023/04/wedges-seasoning.png"
+  },
+  {
+    "slug": "crispy-cut-waffle-potatoes",
+    "image": "/ifcg/images/crispy-cut-waffle-potatoes.png",
+    "source": "https://ifcgegypt.com/wp-content/uploads/2023/04/waffle-cut-seasoning.png"
+  },
+  {
+    "slug": "crinkle-sliced",
+    "image": "/ifcg/images/crinkle-sliced.png",
+    "source": "https://ifcgegypt.com/wp-content/uploads/2023/03/crinkle-slice.png"
+  },
+  {
+    "slug": "steak-fries",
+    "image": "/ifcg/images/steak-fries.png",
+    "source": "https://ifcgegypt.com/wp-content/uploads/2023/03/frensh-fries-13×13-mm.png"
+  },
+  {
+    "slug": "allumettes",
+    "image": "/ifcg/images/allumettes.png",
+    "source": "https://ifcgegypt.com/wp-content/uploads/2023/03/frensh-fries-7×7-mm.png"
+  },
+  {
+    "slug": "pommes-frites",
+    "image": "/ifcg/images/pommes-frites.jpeg",
+    "source": "https://ifcgegypt.com/wp-content/uploads/2023/03/frensh-fries-10×10-mm.jpeg"
+  },
+  {
+    "slug": "premium-clear-coated",
+    "image": "/ifcg/images/premium-clear-coated.webp",
+    "source": "https://ifcgegypt.com/wp-content/uploads/2023/03/2-800x800.webp"
+  }
+]

@@ -1,0 +1,38 @@
+<?php
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CrmController as C;
+Route::prefix('workspace')->name('crm.')->middleware(['auth',\App\Http\Middleware\CrmStaff::class])->group(function(){
+ Route::get('/',[C::class,'home'])->name('home');
+ Route::get('/accounts',[C::class,'accounts'])->name('accounts');
+ Route::post('/accounts',[C::class,'storeAccount'])->name('accounts.store');
+ Route::post('/accounts/import',[C::class,'importAccounts'])->name('accounts.import');
+ Route::get('/accounts/{account}',[C::class,'account'])->name('account');
+ Route::patch('/accounts/{account}',[C::class,'updateAccount'])->name('account.update');
+ Route::post('/accounts/{account}/archive',[C::class,'archiveAccount'])->name('account.archive');
+ Route::post('/accounts/{account}/contacts',[C::class,'contact'])->name('contact');
+ Route::get('/opportunities/new',[C::class,'newOpportunity'])->name('opportunity.new');
+ Route::post('/opportunities',[C::class,'storeOpportunity'])->name('opportunity.store');
+ Route::get('/tasks',[C::class,'tasks'])->name('tasks');
+ Route::post('/tasks',[C::class,'storeTask'])->name('tasks.store');
+ Route::patch('/tasks/{task}',[C::class,'updateTask'])->name('task.update');
+ Route::post('/inquiries/{inquiry}/activities',[C::class,'activity'])->name('activity');
+ Route::post('/inquiries/{inquiry}/documents',[C::class,'upload'])->name('upload');
+ Route::get('/documents/{document}',[C::class,'download'])->name('download');
+ Route::get('/campaigns',[C::class,'campaigns'])->name('campaigns');
+ Route::post('/campaigns',[C::class,'saveCampaign'])->name('campaign.store');
+ Route::patch('/campaigns/{campaign}',[C::class,'saveCampaign'])->name('campaign.update');
+ Route::get('/orders',[C::class,'orders'])->name('orders');
+ Route::post('/quotes/{quote}/convert',[C::class,'convert'])->name('convert');
+ Route::get('/orders/{order}',[C::class,'order'])->name('order');
+ Route::patch('/orders/{order}',[C::class,'updateOrder'])->name('order.update');
+ Route::patch('/orders/{order}/finance',[C::class,'finance'])->name('finance');
+ Route::get('/cases',[C::class,'cases'])->name('cases');
+ Route::post('/cases',[C::class,'storeCase'])->name('case.store');
+ Route::patch('/cases/{case}',[C::class,'updateCase'])->name('case.update');
+ Route::get('/users',[C::class,'users'])->name('users');
+ Route::post('/users',[C::class,'saveUser'])->name('user.store');
+ Route::patch('/users/{user}',[C::class,'saveUser'])->name('user.update');
+ Route::post('/teams',[C::class,'team'])->name('team');
+ Route::get('/reports',[C::class,'reports'])->name('reports');
+ Route::get('/audit',[C::class,'audit'])->name('audit');
+});

@@ -1,0 +1,252 @@
+{
+    "allumettes": {
+        "source": "https://ifcgegypt.com/product/allumettes/",
+        "description": {
+            "ar": "قطع بطاطس رفيعة 7×7 مم، مناسبة لقوائم الوجبات السريعة والمطابخ التي تحتاج إلى تقديم سريع. شكل خفيف يكمّل الوجبات والسندوتشات.",
+            "en": "Slim 7×7 mm fries suited to quick-service menus and fast-paced kitchens. A light-cut side for meals and sandwiches."
+        },
+        "shelf_months": 18,
+        "cut": "7 × 7",
+        "cooking": [
+            "15-20 mins 220°C",
+            "10-15 mins Medium temperature",
+            "3-4 mins 180°C",
+            "14-18 mins 200°C"
+        ],
+        "gallery": [
+            {
+                "src": "/ifcg/images/products/allumettes-1.png",
+                "source": "https://ifcgegypt.com/wp-content/uploads/2023/03/frensh-fries-7×7-mm.png"
+            },
+            {
+                "src": "/ifcg/images/products/allumettes-2.webp",
+                "source": "https://ifcgegypt.com/wp-content/uploads/2023/03/7x7.webp"
+            }
+        ]
+    },
+    "crinkle-fries": {
+        "source": "https://ifcgegypt.com/product/crinkle-fries/",
+        "description": {
+            "ar": "قطع مموجة تمنح أطباقك حضورًا مختلفًا، مع سطح يناسب الصوصات والإضافات. اختيار للأطباق الجانبية ووجبات الأطفال وأطباق البطاطس المحمّلة.",
+            "en": "Ridged fries for dipping, side dishes and loaded fries. Their wavy surface brings texture and helps carry sauces and toppings."
+        },
+        "shelf_months": 18,
+        "cut": null,
+        "cooking": [
+            "15-20 mins 220°C",
+            "10-15 mins Medium temperature",
+            "3-4 mins 180°C",
+            "14-18 mins 200°C"
+        ],
+        "gallery": [
+            {
+                "src": "/ifcg/images/products/crinkle-fries-1.jpeg",
+                "source": "https://ifcgegypt.com/wp-content/uploads/2025/02/crinkle-fries.jpeg"
+            },
+            {
+                "src": "/ifcg/images/products/crinkle-fries-2.jpg",
+                "source": "https://ifcgegypt.com/wp-content/uploads/2025/02/crinkle-fries.jpg"
+            }
+        ]
+    },
+    "crinkle-sliced": {
+        "source": "https://ifcgegypt.com/product/crinkle-sliced/",
+        "description": {
+            "ar": "شرائح بطاطس عريضة ومموجة، بمساحة أكبر لحمل الجبن والصوصات والتوابل. اختيار لأطباق المشاركة والبطاطس المحمّلة والإضافات الجانبية.",
+            "en": "Wide, ridged potato slices for sauces, cheese and seasoning. A substantial option for loaded fries and sharing dishes."
+        },
+        "shelf_months": 18,
+        "cut": null,
+        "cooking": [
+            "15-20 mins 220°C",
+            "10-15 mins Medium temperature",
+            "3-4 mins 180°C",
+            "14-18 mins 200°C"
+        ],
+        "gallery": [
+            {
+                "src": "/ifcg/images/products/crinkle-sliced-1.png",
+                "source": "https://ifcgegypt.com/wp-content/uploads/2023/03/crinkle-slice.png"
+            },
+            {
+                "src": "/ifcg/images/products/crinkle-sliced-2.webp",
+                "source": "https://ifcgegypt.com/wp-content/uploads/2023/03/crinkle-slice-.webp"
+            }
+        ]
+    },
+    "crinkle-sweet-potato": {
+        "source": "https://ifcgegypt.com/product/crinkle-sweet-potato/",
+        "description": {
+            "ar": "بطاطا حلوة بقطع مموجة 11×11 مم، تجمع بين النكهة الحلوة الطبيعية والشكل المميز. مناسبة لتنويع قوائم المطاعم والمقاهي والأطباق الجانبية.",
+            "en": "Naturally sweet fries with an 11×11 mm crinkle cut. A distinctive shape for restaurant sides, café menus and shared snacks."
+        },
+        "shelf_months": 24,
+        "cut": "11 × 11",
+        "cooking": [
+            "15-20 mins 220°C",
+            "10-15 mins Medium temperature",
+            "3-4 mins 180°C",
+            "14-18 mins 200°C"
+        ],
+        "gallery": [
+            {
+                "src": "/ifcg/images/products/crinkle-sweet-potato-1.png",
+                "source": "https://ifcgegypt.com/wp-content/uploads/2023/05/Sweet-Potato-–-Crinkle-Cut-Fries-11×11-mm-1.png"
+            },
+            {
+                "src": "/ifcg/images/products/crinkle-sweet-potato-2.webp",
+                "source": "https://ifcgegypt.com/wp-content/uploads/2023/05/crinkle-fries-.webp"
+            }
+        ]
+    },
+    "crispy-cut-waffle-potatoes": {
+        "source": "https://ifcgegypt.com/product/crispy-cut-waffle-potatoes/",
+        "description": {
+            "ar": "بطاطس وافل بدون قشرة، بتقطيع شبكي يلفت الانتباه على الطبق. مناسبة للمقبلات والأطباق الجانبية والتقديم مع الإضافات والصوصات.",
+            "en": "Skin-off waffle fries with a distinctive crisscross shape. Use for appetizers, side dishes or creative toppings."
+        },
+        "shelf_months": 18,
+        "cut": null,
+        "cooking": [
+            "14-18 mins 200°C",
+            "10-13 mins Medium temperature",
+            "2:30-3:30 mins 180°C",
+            "12-15 mins 185-190°C"
+        ],
+        "gallery": [
+            {
+                "src": "/ifcg/images/products/crispy-cut-waffle-potatoes-1.png",
+                "source": "https://ifcgegypt.com/wp-content/uploads/2023/04/waffle-cut-seasoning.png"
+            },
+            {
+                "src": "/ifcg/images/products/crispy-cut-waffle-potatoes-2.webp",
+                "source": "https://ifcgegypt.com/wp-content/uploads/2023/04/waffle-cut-seasoning.webp"
+            }
+        ]
+    },
+    "plain-sweet-potato": {
+        "source": "https://ifcgegypt.com/product/plain-sweet-potato/",
+        "description": {
+            "ar": "بطاطا حلوة بقطع مستقيمة 10×10 مم ونكهة حلوة طبيعية. أضفها كطبق جانبي مختلف أو قدّمها كوجبة خفيفة مع الصوص المفضل.",
+            "en": "Naturally sweet, straight-cut fries in a 10×10 mm format. Serve as a distinctive side or a snack with a choice of dips."
+        },
+        "shelf_months": 24,
+        "cut": "10 × 10",
+        "cooking": [
+            "15-20 mins 220°C",
+            "10-15 mins Medium temperature",
+            "3-4 mins 180°C",
+            "14-18 mins 200°C"
+        ],
+        "gallery": [
+            {
+                "src": "/ifcg/images/products/plain-sweet-potato-1.png",
+                "source": "https://ifcgegypt.com/wp-content/uploads/2023/05/Sweet-Potato-Straight-Cut-Fries-10×10-mm.png"
+            },
+            {
+                "src": "/ifcg/images/products/plain-sweet-potato-2.webp",
+                "source": "https://ifcgegypt.com/wp-content/uploads/2023/05/6_13-sweet-potato-2.webp"
+            }
+        ]
+    },
+    "pommes-frites": {
+        "source": "https://ifcgegypt.com/product/pommes-frites/",
+        "description": {
+            "ar": "قطع البطاطس الكلاسيكية 10×10 مم، لاستخدامات متعددة في المطاعم والتجزئة. قدّمها كطبق جانبي أو وجبة خفيفة أو كأساس للإضافات.",
+            "en": "Classic 10×10 mm fries for foodservice and retail. Serve as a familiar side, a snack or a base for loaded fries."
+        },
+        "shelf_months": 18,
+        "cut": "10 × 10",
+        "cooking": [
+            "15-20 mins 220°C",
+            "10-15 mins Medium temperature",
+            "3-4 mins 180°C",
+            "14-18 mins 200°C"
+        ],
+        "gallery": [
+            {
+                "src": "/ifcg/images/products/pommes-frites-1.jpeg",
+                "source": "https://ifcgegypt.com/wp-content/uploads/2023/03/frensh-fries-10×10-mm.jpeg"
+            },
+            {
+                "src": "/ifcg/images/products/pommes-frites-2.webp",
+                "source": "https://ifcgegypt.com/wp-content/uploads/2023/03/10_10-fries.webp"
+            }
+        ]
+    },
+    "premium-clear-coated": {
+        "source": "https://ifcgegypt.com/product/premium-clear-coated/",
+        "description": {
+            "ar": "بطاطس مغطاة بطبقة مقرمشة، مقلية مبدئيًا ومجمدة سريعًا. مناسبة للمطاعم والمقاهي والوجبات السريعة التي تبحث عن قرمشة مميزة وسهولة التحضير.",
+            "en": "Coated, pre-fried and quick-frozen fries for a crisp exterior. A convenient choice for restaurants, cafés and quick-service menus."
+        },
+        "shelf_months": 18,
+        "cut": null,
+        "cooking": [
+            "15-20 mins 220°C",
+            "10-15 mins Medium temperature",
+            "3-4 mins 180°C",
+            "14-18 mins 200°C"
+        ],
+        "gallery": [
+            {
+                "src": "/ifcg/images/products/premium-clear-coated-1.webp",
+                "source": "https://ifcgegypt.com/wp-content/uploads/2023/03/2.webp"
+            },
+            {
+                "src": "/ifcg/images/products/premium-clear-coated-2.webp",
+                "source": "https://ifcgegypt.com/wp-content/uploads/2023/03/1.webp"
+            }
+        ]
+    },
+    "steak-fries": {
+        "source": "https://ifcgegypt.com/product/steak-fries/",
+        "description": {
+            "ar": "قطع بطاطس سميكة 13×13 مم، بقلب طري وقوام ممتلئ. تناسب أطباق الستيك والبرجر والتقديم مع الصوصات والإضافات.",
+            "en": "Thick 13×13 mm fries with a soft centre and a substantial bite. Pair with steak, burgers or loaded toppings."
+        },
+        "shelf_months": 18,
+        "cut": "13 × 13",
+        "cooking": [
+            "14-18 mins 200°C",
+            "10-13 mins Medium temperature",
+            "2:30-3:30 mins 180°C",
+            "12-15 mins 185-190°C"
+        ],
+        "gallery": [
+            {
+                "src": "/ifcg/images/products/steak-fries-1.png",
+                "source": "https://ifcgegypt.com/wp-content/uploads/2023/03/frensh-fries-13×13-mm.png"
+            },
+            {
+                "src": "/ifcg/images/products/steak-fries-2.webp",
+                "source": "https://ifcgegypt.com/wp-content/uploads/2023/03/steak-house.webp"
+            }
+        ]
+    },
+    "wedges": {
+        "source": "https://ifcgegypt.com/product/wedges/",
+        "description": {
+            "ar": "قطع ويدجز متبلة بقشرتها، بطابع ريفي وقوام سميك. قدّمها مع البرجر والمشويات أو كطبق مشاركة مع التغميسات.",
+            "en": "Seasoned, skin-on potato wedges with a hearty rustic cut. Pair with burgers, grilled dishes or dipping sauces."
+        },
+        "shelf_months": 18,
+        "cut": null,
+        "cooking": [
+            "14-18 mins 200°C",
+            "10-13 mins Medium temperature",
+            "2:30-3:30 mins 180°C",
+            "12-15 mins 185-190°C"
+        ],
+        "gallery": [
+            {
+                "src": "/ifcg/images/products/wedges-1.png",
+                "source": "https://ifcgegypt.com/wp-content/uploads/2023/04/wedges-seasoning.png"
+            },
+            {
+                "src": "/ifcg/images/products/wedges-2.webp",
+                "source": "https://ifcgegypt.com/wp-content/uploads/2023/04/Wedges-potato.webp"
+            }
+        ]
+    }
+}
