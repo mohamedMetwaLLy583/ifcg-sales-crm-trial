@@ -1,0 +1,52 @@
+services:
+  - type: web
+    name: ifcg-sales-crm-trial
+    runtime: docker
+    plan: free
+    region: frankfurt
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    autoDeployTrigger: commit
+    healthCheckPath: /health
+    envVars:
+      - key: APP_NAME
+        value: IFCG Sales Workspace
+      - key: APP_ENV
+        value: production
+      - key: APP_KEY
+        generateValue: true
+      - key: APP_DEBUG
+        value: "false"
+      - key: APP_URL
+        value: https://ifcg-sales-crm-trial.onrender.com
+      - key: ASSET_URL
+        value: https://ifcg-sales-crm-trial.onrender.com
+      - key: DB_CONNECTION
+        value: pgsql
+      - key: DATABASE_URL
+        fromDatabase:
+          name: ifcg-sales-crm-db
+          property: connectionString
+      - key: IFCG_DEMO_EMAIL
+        value: demo@ifcg.local
+      - key: IFCG_DEMO_PASSWORD
+        generateValue: true
+      - key: LOG_CHANNEL
+        value: stderr
+      - key: CACHE_DRIVER
+        value: file
+      - key: SESSION_DRIVER
+        value: file
+      - key: SESSION_SECURE_COOKIE
+        value: "true"
+      - key: QUEUE_CONNECTION
+        value: sync
+      - key: MAIL_MAILER
+        value: log
+
+databases:
+  - name: ifcg-sales-crm-db
+    databaseName: ifcg_demo
+    user: ifcg_demo
+    plan: free
+    region: frankfurt

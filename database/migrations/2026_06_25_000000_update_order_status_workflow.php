@@ -28,6 +28,10 @@ return new class extends Migration
             }
         }
 
+        if ($driver === 'pgsql') {
+            $this->setPostgresOrderStatuses(['pending', 'processing', 'completed', 'confirmed', 'shipped', 'delivered', 'cancelled']);
+        }
+
         DB::table('orders')->where('status', 'processing')->update(['status' => 'confirmed']);
         DB::table('orders')->where('status', 'completed')->update(['status' => 'delivered']);
 
@@ -37,6 +41,10 @@ return new class extends Migration
             } catch (Throwable $exception) {
                 report($exception);
             }
+        }
+
+        if ($driver === 'pgsql') {
+            $this->setPostgresOrderStatuses(['pending', 'confirmed', 'shipped', 'delivered', 'cancelled']);
         }
     }
 
@@ -62,6 +70,10 @@ return new class extends Migration
             }
         }
 
+        if ($driver === 'pgsql') {
+            $this->setPostgresOrderStatuses(['pending', 'processing', 'completed', 'confirmed', 'shipped', 'delivered', 'cancelled']);
+        }
+
         DB::table('orders')->where('status', 'confirmed')->update(['status' => 'processing']);
         DB::table('orders')->where('status', 'shipped')->update(['status' => 'processing']);
         DB::table('orders')->where('status', 'delivered')->update(['status' => 'completed']);
@@ -73,6 +85,19 @@ return new class extends Migration
                 report($exception);
             }
         }
+
+        if ($driver === 'pgsql') {
+            $this->setPostgresOrderStatuses(['pending', 'processing', 'completed', 'cancelled']);
+        }
+    }
+
+    private function setPostgresOrderStatuses(array $statuses): void
+    {
+        DB::statement('ALTER TABLE orders DROP CONSTRAINT IF EXISTS orders_status_check');
+        DB::statement('ALTER TABLE orders ALTER COLUMN status TYPE VARCHAR(255)');
+
+        $allowed = implode(', ', array_map(fn (string $status): string => DB::getPdo()->quote($status), $statuses));
+        DB::statement("ALTER TABLE orders ADD CONSTRAINT orders_status_check CHECK (status IN ({$allowed}))");
     }
 
     private function rebuildSqliteOrdersTableForNewStatuses(): void
